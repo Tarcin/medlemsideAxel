@@ -33,7 +33,7 @@ overlayXY(rectangle(40, 20, "solid", "white"), 30, 52,
         overlayXY(circle(20, "solid", "white"), 30, 20, 
             overlayXY(circle(20, "solid", "white"), 45, 30, sky))));
 overlayXY(rectangle(220, 20, "solid", "blue"), 0, 120, sky);
-overlayXY(circle(40, "solid", "gold"), 170,-30, sky);
+overlayXY(circle(20, "solid", "gold"), 178, -2, sky);
 overlayXY(sky, 100, 100, canvas);
 
 const svg = document.getElementById("mySVG")
@@ -63,11 +63,10 @@ overlayXYsvg(circleSVG(10, "solid", "blue"), 210, 120,
                                                                                 overlayXYsvg(circleSVG(10, "solid", "blue"), 10, 120, 
                                                                                     overlayXYsvg(circleSVG(10, "solid", "white"), 0, 120, svg)))))))))))))))))))))));
 
-overlayXYsvg(rectangleSVG(40, 20, "solid", "white"), 30, 52, 
+overlayXYsvg(rectangleSVG(40, 20, "solid", "white"), 30, 50, 
     overlayXYsvg(circleSVG(20, "solid", "white"), 35, 50, 
         overlayXYsvg(circleSVG(20, "solid", "white"), 50, 40, 
             overlayXYsvg(circleSVG(20, "solid", "white"), 65, 50, svg))));
 
 overlayXYsvg(rectangleSVG(220, 20, "solid", "blue"), 0, 120, svg);
-overlayXYsvg(circleSVG(40, "solid", "gold"), 210,10, svg);
-overlayXYsvg(rectangleSVG(40, 140, "solid", "white"), 220, 0, svg);
+overlayXYsvg(circleSVG(20, "solid", "gold"), 200,20, svg);
